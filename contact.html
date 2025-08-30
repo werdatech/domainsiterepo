@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WerdaTech — Contact Us</title>
+
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- ================= NAVBAR (same as home) ================= -->
+    <nav class="navbar" role="navigation" aria-label="Primary">
+      <div class="logo">WerdaTech</div>
+
+      <!-- Mobile menu -->
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="hamburger" aria-label="Toggle menu">&#9776;</label>
+
+      <ul class="nav-links">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="service.html">Service & Pricing</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- ================= HERO ================= -->
+    <header class="sp-hero">
+      <div class="container">
+        <h1>Get In Touch</h1>
+        <p>Ready to start your project? Let's discuss your vision.</p>
+      </div>
+    </header>
+
+    <!-- ================= CONTACT FORM ================= -->
+    <main id="contact" class="sp-layout">
+      <div class="container">
+        
+        <!-- Contact Form Section -->
+        <section class="sp-section">
+          <h2 class="sp-section-title">Send Us a Message</h2>
+          <p class="sp-section-subtitle">Tell us about your project and we'll get back to you within 24 hours.</p>
+
+          <form class="contact-form" action="#" method="POST">
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone">
+              </div>
+              
+              <div class="form-group">
+                <label for="company">Company Name</label>
+                <input type="text" id="company" name="company">
+              </div>
+              
+              <div class="form-group form-group-full">
+                <label for="service">Service Interest *</label>
+                <select id="service" name="service" required>
+                  <option value="">Select a service...</option>
+                  <option value="ecommerce">E-commerce Website</option>
+                  <option value="business">Business Website</option>
+                  <option value="basic">Basic Website</option>
+                  <option value="maintenance">Website Maintenance</option>
+                  <option value="seo">SEO Services</option>
+                  <option value="hosting">Hosting & Domain</option>
+                  <option value="custom">Custom Quote</option>
+                </select>
+              </div>
+              
+              <div class="form-group form-group-full">
+                <label for="budget">Budget Range</label>
+                <select id="budget" name="budget">
+                  <option value="">Select budget range...</option>
+                  <option value="under-3000">Under P3,000</option>
+                  <option value="3000-5000">P3,000 - P5,000</option>
+                  <option value="5000-8000">P5,000 - P8,000</option>
+                  <option value="8000-12000">P8,000 - P12,000</option>
+                  <option value="over-12000">Over P12,000</option>
+                  <option value="discuss">Let's discuss</option>
+                </select>
+              </div>
+              
+              <div class="form-group form-group-full">
+                <label for="timeline">Project Timeline</label>
+                <select id="timeline" name="timeline">
+                  <option value="">Select timeline...</option>
+                  <option value="asap">ASAP</option>
+                  <option value="1-2-weeks">1-2 weeks</option>
+                  <option value="1-month">1 month</option>
+                  <option value="2-3-months">2-3 months</option>
+                  <option value="flexible">Flexible</option>
+                </select>
+              </div>
+              
+              <div class="form-group form-group-full">
+                <label for="message">Project Details *</label>
+                <textarea id="message" name="message" rows="6" placeholder="Tell us about your project, goals, and any specific requirements..." required></textarea>
+              </div>
+            </div>
+            
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </div>
+          </form>
+        </section>
+
+        <!-- Contact Information Section -->
+        <section class="sp-section">
+          <h2 class="sp-section-title">Other Ways to Reach Us</h2>
+          
+          <div class="contact-info-grid">
+            <div class="contact-info-card">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <h3>Email</h3>
+              <p>hello@designco.co.bw</p>
+              <p class="contact-note">We respond within 24 hours</p>
+            </div>
+            
+            <div class="contact-info-card">
+              <div class="contact-icon">
+                <i class="fab fa-whatsapp"></i>
+              </div>
+              <h3>WhatsApp</h3>
+              <p>+267 71 234 567</p>
+              <p class="contact-note">Quick questions & updates</p>
+            </div>
+            
+            <div class="contact-info-card">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <h3>Phone</h3>
+              <p>+267 71 234 567</p>
+              <p class="contact-note">Mon-Fri, 9AM-5PM</p>
+            </div>
+            
+            <div class="contact-info-card">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <h3>Location</h3>
+              <p>Gaborone, Botswana</p>
+              <p class="contact-note">Serving Southern Africa</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="sp-section">
+          <h2 class="sp-section-title">Frequently Asked Questions</h2>
+          
+          <div class="faq-grid">
+            <div class="faq-item">
+              <h3>How long does a typical project take?</h3>
+              <p>Basic websites take 1-2 weeks, business sites 2-4 weeks, and e-commerce projects 4-6 weeks. We'll provide a detailed timeline during our consultation.</p>
+            </div>
+            
+            <div class="faq-item">
+              <h3>Do you provide ongoing support?</h3>
+              <p>Yes! We offer monthly maintenance plans starting at P650/month. This includes updates, backups, security monitoring, and performance optimization.</p>
+            </div>
+            
+            <div class="faq-item">
+              <h3>Can you work with my existing brand?</h3>
+              <p>Absolutely! We'll review your current brand guidelines and ensure the website design aligns perfectly with your existing visual identity.</p>
+            </div>
+            
+            <div class="faq-item">
+              <h3>What happens after I submit this form?</h3>
+              <p>We'll review your requirements and schedule a free consultation call within 24 hours. This helps us understand your vision and provide an accurate quote.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="sp-section notes">
+          <div class="sp-cta">
+            <a href="service.html" class="btn">View Services & Pricing</a>
+            <a href="portfolio.html" class="btn">See Our Portfolio</a>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- ================= FOOTER (same as home) ================= -->
+    <footer class="footer">
+      <div class="footer-container">
+        <p class="footer-text">© 2025 DesignCo Media Solutions. All rights reserved.</p>
+        <a href="#" class="footer-link">Terms & Conditions</a>
+        <div class="footer-socials">
+          <a href="#" aria-label="Facebook" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Twitter" class="social-icon"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WerdaTechSolutions — Minimal Websites that Perform</title>
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+/>
+
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar" role="navigation" aria-label="Primary">
+      <div class="logo">WerdaTech</div>
+
+      <!-- Mobile menu -->
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="hamburger" aria-label="Toggle menu">&#9776;</label>
+
+      <ul class="nav-links">
+        <li><a href="index.html" aria-label="Go to Home">Home</a></li>
+        <li><a href="portfolio.html" aria-label="Go to Portfolio">Portfolio</a></li>
+        <li><a href="service.html" aria-label="Go to Services & Pricing">Service & Pricing</a></li>
+        <li><a href="contact.html" aria-label="Go to Contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- ================= HERO ================= -->
+    <header class="hero" id="home">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-text">
+            <h1>Clean. Minimal. Powerful.</h1>
+            <p>
+              We craft ultra-light websites that look sharp and load fast.
+              Less noise, more clarity — all focused on results.
+            </p>
+
+            <div class="hero-ctas">
+              <a href="#portfolio" class="btn btn-primary">View Portfolio</a>
+              <a href="#services" class="btn btn-ghost">Service & Pricing</a>
+            </div>
+
+            <div class="trust-row">
+              <span class="dot"></span>
+              <span>Trusted by brands across Southern Africa</span>
+            </div>
+          </div>
+
+          <!-- Phone visual (realistic iPhone tilt) -->
+          <div class="hero-visual">
+            <div class="phone-wrap">
+              <div class="phone-15pm">
+                <div class="phone-frame">
+                  <div class="phone-bezel">
+                    <div class="dynamic-island"><span class="camera-dot"></span></div>
+
+                    <div class="phone-screen">
+                      <span class="screen-copy">WerdaTech<br />Solutions</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- side buttons (right edge in this pose) -->
+                <span class="btn-slab btn-top"></span>
+                <span class="btn-slab btn-mid"></span>
+              </div>
+            </div>
+
+            <!-- Subtle floating glows -->
+            <span class="float float-a"></span>
+            <span class="float float-b"></span>
+            <span class="float float-c"></span>
+          </div>
+        </div>
+
+        <div class="scroll-indicator">
+          <span class="wheel"></span>
+        </div>
+      </div>
+    </header>
+
+    <!-- ================= ABOUT (Who We Are + Values) ================= -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-header">
+          <h2>Who We Are</h2>
+          <p>
+            At WerdaTechSolutions  , we believe in simplicity, clarity, and impact.
+            We craft websites that are not just visually appealing but also fast,
+            responsive, and built with purpose.
+          </p>
+          <p class="sub-note">
+            Your website is your first impression — a modern, clean, and functional
+            site builds trust and drives action. That’s why we keep our designs minimal,
+            professional, and goal-driven.
+          </p>
+        </div>
+
+        <div class="values-grid">
+          <div class="value-card">
+            <span class="value-icon">🎨</span>
+            <h3>Creativity</h3>
+            <p>Fresh, original layouts that reflect your brand identity.</p>
+          </div>
+          <div class="value-card">
+            <span class="value-icon">⚡</span>
+            <h3>Performance</h3>
+            <p>Fast-loading, responsive builds for every device.</p>
+          </div>
+          <div class="value-card">
+            <span class="value-icon">🤝</span>
+            <h3>Partnership</h3>
+            <p>We listen, iterate, and collaborate toward your goals.</p>
+          </div>
+          <div class="value-card">
+            <span class="value-icon">🌍</span>
+            <h3>Impact</h3>
+            <p>Designs focused on clarity, trust, and measurable results.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SERVICES (horizontal + bullets) ================= -->
+    <section class="services" id="services">
+      <div class="container">
+        <h2 class="section-title">Our Services</h2>
+        <p class="section-subtitle">High-quality solutions tailored to your business needs.</p>
+
+        <div class="service-cards">
+          <!-- Web Design -->
+          <article class="service-card">
+            <h3>Web Design</h3>
+            <ul>
+              <li>Modern, minimal UI/UX</li>
+              <li>Responsive layouts</li>
+              <li>Brand-aligned typography & color</li>
+            </ul>
+          </article>
+
+          <!-- Web Development -->
+          <article class="service-card">
+            <h3>Web Development</h3>
+            <ul>
+              <li>Custom builds & CMS</li>
+              <li>eCommerce & booking features</li>
+              <li>Clean, scalable code</li>
+            </ul>
+          </article>
+
+          <!-- Maintenance -->
+          <article class="service-card">
+            <h3>Maintenance</h3>
+            <ul>
+              <li>Security & updates</li>
+              <li>Performance checks</li>
+              <li>Content changes</li>
+            </ul>
+          </article>
+        </div>
+
+        <!-- Button consistent with hero -->
+        <a href="#pricing" class="btn">Services & Pricing</a>
+      </div>
+    </section>
+
+    <!-- ================= PORTFOLIO (3 large items) ================= -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h2 class="section-title">Portfolio</h2>
+        <p class="section-subtitle">A glimpse of our recent work.</p>
+
+        <div class="portfolio-showcase">
+          <!-- Item 1 -->
+          <figure class="portfolio-item">
+            <img src="img/portfolio-01.jpg" alt="FinVision SaaS landing redesign" />
+            <figcaption>
+              <h3>FinVision</h3>
+              <p>Fintech landing with neon accents and clear conversion paths.</p>
+            </figcaption>
+          </figure>
+
+          <!-- Item 2 -->
+          <figure class="portfolio-item">
+            <img src="img/portfolio-02.jpg" alt="SwiftHaul logistics landing" />
+            <figcaption>
+              <h3>SwiftHaul Logistics</h3>
+              <p>Logistics site with bold hero, trust cues, and clear CTA flow.</p>
+            </figcaption>
+          </figure>
+
+          <!-- Item 3 -->
+          <figure class="portfolio-item">
+            <img src="img/portfolio-03.jpg" alt="Velora fashion e-commerce homepage" />
+            <figcaption>
+              <h3>Velora</h3>
+              <p>Fashion e-commerce hero with modern gradients and clear actions.</p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <a href="#full-portfolio" class="btn btn-portfolio">View Portfolio</a>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT (placeholder anchor) ================= -->
+    <section id="contact" class="contact" aria-label="Contact"></section>
+
+<footer class="footer">
+  <div class="footer-container">
+    <!-- Left -->
+    <p class="footer-text">© 2025 WerdaTechSolutions. All rights reserved.</p>
+
+    <!-- Center -->
+    <a href="#" class="footer-link">Terms & Conditions</a>
+
+    <!-- Right -->
+    <div class="footer-socials">
+      <a href="#" aria-label="Facebook" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" aria-label="Instagram" class="social-icon"><i class="fab fa-instagram"></i></a>
+      <a href="#" aria-label="LinkedIn" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#" aria-label="Twitter" class="social-icon"><i class="fab fa-twitter"></i></a>
+    </div>
+  </div>
+</footer>
+  </body>
+  
+</html>

@@ -1,2 +1,1 @@
-# domainsiterepo
--The repo being used to host the site.
+# the-money-team
